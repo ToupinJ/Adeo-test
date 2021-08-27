@@ -1,4 +1,4 @@
-// retrieve all animals with the passed filter bby countries
+// retrieve all animals with the passed filter by countries
 const filterByAnimalName = (filter, countries) => {
   const results = [];
 
@@ -39,6 +39,6 @@ const filterByAnimalName = (filter, countries) => {
 }
 
 
-  module.exports = {
-    filterByAnimalName,
-  }
+module.exports = {
+  filterByAnimalName,
+}
